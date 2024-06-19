@@ -194,7 +194,6 @@ section {
   border-radius: 25%;
   padding-right: 5%;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
-  border: #BD6F6F 0.15rem solid;
 }
 
 @keyframes fadeInRise {
@@ -319,7 +318,6 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: #BD6F6F 0.15rem solid;
   text-align: center;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
   background-color: #FFFBE6;
@@ -382,7 +380,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 80vh;
+  height: 55vh;
   margin-bottom: 2vh;
 }
 
@@ -390,7 +388,6 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: #BD6F6F 0.15rem solid;
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
