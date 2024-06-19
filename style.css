@@ -167,6 +167,16 @@ section {
   justify-content: center;
   gap: 8rem;
   height: 80vh;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInRise 2s ease-in-out forwards;
+}
+
+@keyframes fadeInRise {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .section__pic-container {
@@ -405,5 +415,36 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid;
+  animation: typing 2.5s steps(18, end), hide-caret 0s 2.5s forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 14ch;
+  }
+}
+
+@keyframes hide-caret {
+  to {
+    border-color: transparent;
+  }
+}
+
+.profilediv {
+  display: flex;
+  gap: 8rem;
+  background-color: rgb(204,204,255);
+  border-radius: 25%;
+  padding-right: 15%;
 }
 
