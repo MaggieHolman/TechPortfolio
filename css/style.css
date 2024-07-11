@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-weight:300;
+}
+
+h3 {
+  font-weight:200;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+  transition: all 400ms ease;
+}
+
+.profile-div {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-text-div {
+  background-color: white;
+  width:24rem;
+  height: 19rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+}
+
+.photo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26rem;
+}
+
+.profile-pic {
+  height: 23rem;
+  width: 34rem;
+}
+
+.top-right, .top-left, .bottom-right, .bottom-left {
+  border-radius: 10px;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: default;
+}
+
+.top-right:hover, .top-left:hover, .bottom-right:hover, .bottom-left:hover {
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+.navigation {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2%;
+}
+
+.left-nav, .right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3.5%;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+  background-color: black;
+  width: 2rem;
+  height: 2rem;
+}
+
+.profile-text-title {
+  padding: 0;
+  margin:0;
+  height: 2.5rem;
+}
+
+.profile-text-subtitle {
+  padding: 0;
+  margin: 0;
+  height: 2rem;
+  margin-bottom: 7.5%;
+}
