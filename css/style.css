@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh; 
-  background-color: antiquewhite;
+  
 }
 
 h1 {
@@ -72,7 +72,19 @@ html {
   cursor: default;
 }
 
-.top-right:hover, .top-left:hover, .bottom-right:hover, .bottom-left:hover {
+.icon1, .icon2, .icon3, .icon4 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+}
+
+.instagram, .github, .linkedin, .email {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.top-right:hover, .top-left:hover, .bottom-right:hover, .bottom-left:hover, .icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover {
   box-shadow: 10px 10px 10px rgba(0,0,0,.5);
 }
 
@@ -96,14 +108,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 3.5%;
-}
-
-.icon1, .icon2, .icon3, .icon4 {
-  background-color: black;
-  width: 2rem;
-  height: 2rem;
+  gap: 1.75rem;
+  margin-bottom: 5%;
 }
 
 .profile-text-title {
@@ -117,4 +123,22 @@ html {
   margin: 0;
   height: 2rem;
   margin-bottom: 7.5%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg,#3a1e80,#e6e6ef,#1313cc);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
