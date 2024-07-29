@@ -75,7 +75,7 @@ html {
 .icon1, .icon2, .icon3, .icon4 {
   width: 2rem;
   height: 2rem;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .instagram, .github, .linkedin, .email {
@@ -128,7 +128,7 @@ html {
 .gradient-background {
   background: linear-gradient(300deg,#3a1e80,#e6e6ef,#1313cc);
   background-size: 180% 180%;
-  animation: gradient-animation 6s ease infinite;
+  animation: gradient-animation 12s ease infinite;
 }
 
 @keyframes gradient-animation {

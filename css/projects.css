@@ -1,0 +1,214 @@
+html, body {
+    overflow-x: hidden;
+  }
+  
+  body {
+      font-family: "Italiana", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding: 0;
+      margin: 0;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+    }
+  
+  * {
+    transition: all 400ms ease;
+  }
+
+nav, .nav-links{
+    display: flex;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    margin-left: 25%;
+    margin-top: .75%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    justify-content: space-around;
+    padding-top: 2%;
+    
+}
+
+.logo {
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+}
+
+.icon {
+    width: 28px; /* Set the desired width */
+    height: auto;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+  }
+
+  .logo:hover {
+    cursor: default;
+  }
+
+  .icon:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .projects-body {
+    margin-top: 3rem;
+  }
+
+  .project-gallery {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+  }
+
+  .project-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .border {
+    width: 19rem;
+    height: 28rem;
+    background-color: rgb(32, 32, 80);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .project {
+    width: 18rem;
+    height: 27rem;
+    background-color: rgb(32, 32, 80);
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: .75rem;
+  }
+
+  .title, .project-text, .coding-language-gallery {
+    color: white;
+  }
+
+  .project-text {
+    padding: .75rem;
+    text-align: left;
+    font-size: .75rem;
+    height: 15rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .coding-language-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .coding-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    height: 4rem;
+  }
+
+  .CSS, .JavaScript, .HTML {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .CSS {
+    width: 3.5rem;
+    height: 2rem;
+    background-color: white;
+    color: rgb(32, 32, 80);
+    border-radius: 100px;
+  }
+
+  .HTML {
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    color: rgb(32, 32, 80);
+    border-radius: 100px;
+  }
+
+  .JavaScript {
+    width: 6.5rem;
+    height: 2rem;
+    background-color: white;
+    color: rgb(32, 32, 80);
+    border-radius: 100px;
+  }
+
+  footer {
+    height: 26vh;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the nav horizontally */
+    align-items: center; /* Center the nav vertically */
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 1.5vh;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: center; /* Center the nav horizontally */
+    align-items: center; /* Center the nav vertically */
+     /* Ensure it spans the full width of the footer */
+     font-size: 2.5vh;
+  }
+
+  .footer-nav-links {
+    /* Example: if a child element has a fixed width */
+ /* Ensure child elements can adjust to content */
+    list-style-type: none;
+    gap: 2rem;
+    display: flex;
+}
+
+.footer-nav-links a {
+    /* Example: Ensure text alignment is centered */
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
