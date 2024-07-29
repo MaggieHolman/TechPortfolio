@@ -7,7 +7,7 @@ document.getElementById('artportfolio').addEventListener('click', function() {
 });
 
 document.getElementById('aboutme').addEventListener('click', function() {
-    window.location.href = 'about.html'; // Path to your resume file
+    window.location.href = 'https://maggieholman.github.io/ArtPortfolio/about.html'; // Path to your resume file
 });
 
 document.getElementById('projects').addEventListener('click', function() {
@@ -24,4 +24,13 @@ document.getElementById('email').addEventListener('click', function() {
 });
 document.getElementById('instagram').addEventListener('click', function() {
     window.location.href = 'https://www.instagram.com/maggiesarttt/'; // Path to your resume file
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const fadeInElements = document.querySelectorAll(".fade-in");
+    fadeInElements.forEach((element, index) => {
+        setTimeout(() => {
+            element.classList.add("visible");
+        }, index * 500); // Stagger the fade-in by 500ms for each element
+    });
 });
