@@ -1,5 +1,5 @@
 document.getElementById('resume').addEventListener('click', function() {
-    window.location.href = 'images/TechnicalFallResume.pdf'; // Path to your resume file
+    window.location.href = 'images/MaggieHolmanTechResume.pdf'; // Path to your resume file
 });
 
 document.getElementById('artportfolio').addEventListener('click', function() {
