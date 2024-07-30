@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h1 {
+  font-weight:300;
+}
+
+h3 {
+  font-weight:200;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+  transition: all 400ms ease;
+}
+
+.profile-div {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-text-div {
+  background-color: white;
+  width:25rem;
+  height: 21rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+}
+
+.photo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26rem;
+}
+
+.profile-pic {
+  height: 23rem;
+  width: 34rem;
+}
+
+.top-right, .top-left, .bottom-right, .bottom-left {
+  border-radius: 10px;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: default;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.instagram, .github, .linkedin, .email {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.top-right:hover, .top-left:hover, .bottom-right:hover, .bottom-left:hover, .icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover {
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+.navigation {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2%;
+}
+
+.left-nav, .right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  margin-bottom: 5%;
+}
+
+.profile-text-title {
+  padding: 0;
+  margin:0;
+  height: 2.5rem;
+}
+
+.profile-text-subtitle {
+  padding: 0;
+  margin: 0;
+  height: 2rem;
+  margin-bottom: 7.5%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg,#3a1e80,#e6e6ef,#1313cc);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
