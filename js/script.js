@@ -1,5 +1,5 @@
 document.getElementById('resume').addEventListener('click', function() {
-    window.location.href = 'imagesMargaretHolmanResume.docx'; // Path to your resume file
+    window.location.href = 'images/MargaretHolmanResume.docx'; // Path to your resume file
 });
 
 document.getElementById('artportfolio').addEventListener('click', function() {
@@ -35,3 +35,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
