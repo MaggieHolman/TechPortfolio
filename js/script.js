@@ -1,5 +1,5 @@
 document.getElementById('resume').addEventListener('click', function() {
-    window.location.href = 'images/MaggieHolmanTechResume.pdf'; // Path to your resume file
+    window.location.href = 'imagesMargaretHolmanResume.docx'; // Path to your resume file
 });
 
 document.getElementById('artportfolio').addEventListener('click', function() {
@@ -33,4 +33,5 @@ document.addEventListener("DOMContentLoaded", () => {
             element.classList.add("visible");
         }, index * 500); // Stagger the fade-in by 500ms for each element
     });
+
 });
