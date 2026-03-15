@@ -144,6 +144,12 @@ html {
   animation: gradient-animation 12s ease infinite;
 }
 
+.profile-text-title {
+  padding: 0;
+  margin:0;
+  height: 2.5rem;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
